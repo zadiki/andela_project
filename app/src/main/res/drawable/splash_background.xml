@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape
+            android:shape="rectangle">
+            <size android:width="350dp" android:height="440dp"/>
+            <stroke android:width="1dp" android:color="#0D0F12" />
+            <solid android:color="#0D0F12" />
+            <padding android:bottom="1dp"/>
+        </shape>
+    </item>
+
+    <item android:left="0dp" android:top="0dp" android:bottom="300dp" android:right="200dp">
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="100dp"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp" />
+            <stroke android:width="1dp" android:color="#ffffff" />
+            <solid android:color="#ffffff" />
+            <padding android:bottom="1dp"/>
+        </shape>
+    </item>
+
+    <item android:left="170dp" android:top="270dp" android:bottom="0dp" android:right="0dp">
+        <shape
+            android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="100dp"
+                android:topRightRadius="0dp" />
+            <stroke android:width="1dp" android:color="#ffffff" />
+            <solid android:color="#ffffff" />
+            <padding android:bottom="1dp"/>
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:src="@drawable/gads"
+            android:gravity="center_vertical"
+            android:tileMode="disabled" />
+    </item>
+</layer-list>

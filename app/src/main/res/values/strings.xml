@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndeleProject</string>
+    <string name="iprocure_k_ltd">iprocure_ltk</string>
+    <string name="company_copyright">copy right</string>
+    <string name="leaderboard">LEADERBOARD</string>
+    <string name="submit">Submit</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="fname">first name</string>
+    <string name="lastname">last name</string>
+</resources>
